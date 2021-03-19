@@ -76,6 +76,7 @@ export default class Login extends Component {
         }
         },
         error => {
+
           console.log(error);
           const resMessage =
             (error.response &&
