@@ -4,8 +4,8 @@ import axios from "axios";
 const API_URL = "https://startwell.herokuapp.com/";
 
 const headers = {
-  'Content-Type': 'application/json',
-  'Access-Control-Allow-Origin' : '*'
+  'Content-Type': 'application/json'
+   /* 'Access-Control-Allow-Origin' : '*' */
 }
 
 class AuthService {
